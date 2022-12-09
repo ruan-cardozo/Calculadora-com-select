@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Minha calculadora</title>
+</head>
+<body>
+    <div>
+    <select name="operation" id="operation" onchange="operation()">
+        <option value="0">Adição</option>
+        <option value="1">Subtração</option>
+        <option value="2">Multiplicação</option>
+        <option value="3">Divisão</option>
+    </select>
+    
+    <p>Primeiro número: <input type="text" id="num1"></p>
+    <p id="mais">+</p>
+    <p>Segundo número: <input type="text" id="num2"></p>
+    <button id='calc' onclick='calculate();'>Calcular</button>
+    <p>Resposta:</p>
+    <p id="answer"></p>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
+
