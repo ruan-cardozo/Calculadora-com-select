@@ -1,2 +1,1 @@
-Alunos: Ruan Diego Velloso Cardozo
-        Guilherme Elias Kopsch
+Alunos: Ruan Diego Velloso Cardozo e Guilherme Elias Kopsch
